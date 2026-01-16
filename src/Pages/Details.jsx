@@ -18,7 +18,7 @@ const Details = ({ movies }) => {
         height="450"
         src={movie.trailer}
         title={movie.title}
-        
+        allowFullScreen
       ></iframe>
       <br />
       <Link to="/">

@@ -12,8 +12,7 @@ const Details = ({ movies }) => {
     
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h1>{movie.title}</h1>
-      <h5>{movie.description}</h5>
-      <br/>
+      <p style={{fontFamily :"-moz-initial" , fontSize :"20px"}}>{movie.description}</p>
       <iframe
         width="800"
         height="450"

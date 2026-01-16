@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
 
@@ -21,9 +21,9 @@ const Details = ({ movies }) => {
         
       ></iframe>
       <br />
-      <NavLink to="/">
+      <Link to="/">
         <Button variant="info" style={{ marginTop: "20px" }}>Back to Home</Button>
-      </NavLink>
+      </Link>
     </div>
   );
 };
